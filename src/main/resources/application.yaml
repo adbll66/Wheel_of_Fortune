@@ -1,0 +1,5 @@
+spring.application.name=Wheel_of_Fortune
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/pole_chudes_new
+spring.datasource.username=postgres
+spring.datasource.password=admin

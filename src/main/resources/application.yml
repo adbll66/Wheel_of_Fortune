@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Wheel_of_Fortune
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pole_chudes_new
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+  flyway:
+    enabled: true
